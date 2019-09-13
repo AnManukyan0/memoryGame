@@ -1,0 +1,119 @@
+body{
+	background: url("https://images.assetsdelivery.com/compings_v2/natuskadpi/natuskadpi1510/natuskadpi151000056.jpg");
+	background-repeat: no-repeat, repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+p {
+	margin: auto 0;
+}
+
+
+
+img {
+	width: 200px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 0%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+
+img:hover {
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+
+
+
+.gameArea{
+	display: flex; 
+	margin: 30px;
+	padding: 20px;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.screen {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.other {
+	justify-content: left;
+	padding: 0 auto;
+}
+
+
+
+.score, .clock, .level {
+	width: 13em;
+	height: 10em;
+	border: solid #3d303d;
+	text-align: center;
+	margin: 30px;
+	background-color: #3aade1;
+}
+
+
+#writtenScore {
+	font-size: 30px;
+}
+
+#writtenLevel{
+	font-size: 30px;
+}
+
+#minutes {
+	font-size: 30px;
+}
+
+#seconds {
+	font-size: 30px;
+}
+
+.clockPart {
+	display: flex;
+	justify-content: center;
+}
+
+
+h1 {
+	text-align: center;
+
+}
+
+
+.choseLevels {
+	justify-content: center;
+	display: flex;
+}
+
+
+.nextLevel {
+	justify-content: center;
+	border: solid #3d303d;
+	text-align: center;
+	margin: 30px;
+	background-color: #3aade1;
+}
+
+
+#memoryGame {
+	justify-content: center;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+
+
+
+
